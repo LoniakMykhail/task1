@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div  style="text-align: center;">
+        <h1>Employee Interests Survey form</h1>
+        <div>
+            <form action="/" method="get">
+                <div>
+                    <p>Enter your name:<input type="text" tabindex="1"></p>
+                    
+                </div>
+                <div>
+                    <p>Enter your department:<input type="text" tabindex="2"></p>
+                    
+                </div>
+                <div>
+                    <p>Tell us a little about yourself:<textarea name="you" cols="30" rows="5" tabindex="3"></textarea></p>
+                    
+                </div>
+                <div>
+                    <p>Do you exercise at home?
+                        <input type="radio" name="workHome" tabindex="4">
+                        <label for="yes">Yes</label>
+
+                        <input type="radio" name="workHome" tabindex="4">
+                        <label for="No">No</label>
+                    </p>
+                </div>
+                <div>
+                    <p>How do you like to read about your favorite topics?</p>
+                    <input type="checkbox" name="readFavoriteTopics" value="yes" tabindex="5">
+                    <label for="Books">Books</label>
+                    <input type="checkbox" name="readFavoriteTopics" value="yes" tabindex="5">
+                    <label for="Online resources">Online resources</label>
+                    <input type="checkbox" name="readFavoriteTopics" value="yes" tabindex="5">
+                    <label for="Phone apps">Phone apps</label>
+                    <input type="checkbox" name="readFavoriteTopics" value="yes" tabindex="5">
+                    <label for="Magazines">Magazines</label>
+                </div>
+                <div>
+                    <p>What genre of movies do you like?</p>
+                    <select name="moviesLike" tabindex="6">
+                    <option value="comedy">comedy</option>
+                    <option value="romance">romance</option>
+                    <option value="thriller">thriller</option>
+                    <option value="horror">horror</option>
+                    <option value="biopic">biopic</option></select>
+                </div>
+                <div>
+                    <button type="submit">Submit form</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
